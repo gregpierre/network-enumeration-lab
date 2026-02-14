@@ -1,9 +1,17 @@
-Research Notes – Day 1
+# Day 1 – Network Security Research Notes
 
-Network enumeration allows attackers to discover active devices.
+## What Attackers Can Discover:
+- Active devices on a network
+- Open ports (TCP/UDP)
+- Services running on ports (SSH, HTTP, FTP, etc.)
+- OS information (sometimes)
+- Unencrypted traffic data
+- Network structure
 
-Port scanning reveals open ports and running services.
+## Tools To Explore:
+- Nmap – for scanning open ports and discovering services
+- Wireshark – for capturing and analyzing packets
 
-Packet sniffing can expose unencrypted credentials or sensitive data.
-
-Enumeration helps attackers identify vulnerabilities before exploitation.
+## Questions / Thoughts:
+- Can I capture my own local traffic safely?
+- How do I scan a VM vs my main computer?
